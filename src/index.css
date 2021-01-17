@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sound-button {
+  text-align: center;
+  min-width: 100px;
+  padding: 2rem;
+  border: 2px solid #FFC107;
+  border-radius: 50%;
+  background-color: #fad883;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  height: 100px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.sound-button:hover{
+  box-shadow: 0 0 10px 2px #ababab ;
+}
+
+.sound-button:active{
+  transform: scale(0.92);
+}
+.sound-emoji {
+  filter: drop-shadow(10px 5px 4px #ca9907);
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+}
+.button-group {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.button-group > div{
+  margin-left: 5px;
+  margin-right:5px;
+}
